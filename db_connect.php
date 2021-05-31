@@ -1,6 +1,6 @@
 <?php
 
-$username = 'root';
+$username = 'pma';
 $password = '';
 $dsn = 'mysql:host=localhost; dbname=mydb';
 
@@ -14,4 +14,5 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
     }
+
 ?>

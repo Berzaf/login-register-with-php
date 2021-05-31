@@ -1,6 +1,6 @@
 <?php
 
-require_once 'source/db_connect.php';
+require_once 'db_connect.php';
 
 if(isset($_POST['register-btn'])) {
 
@@ -34,11 +34,11 @@ if(isset($_POST['register-btn'])) {
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login System</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div id="form" class="container">
+    
+    <div id="form" >
         <h1>Register</h1>
         <form action="register.php" method="post">
             <input type="text" name="username" class="input-box" placeholder="User Name">
@@ -46,7 +46,7 @@ if(isset($_POST['register-btn'])) {
             <input type="password" name="password" class="input-box" placeholder="Password">
             <input type="submit" name="register-btn" class="btn" value="Register">
 
-            <p class="login-register-text">Have an account? <a href="index.html">Login Here</a>.</p>
+            <p class="login-register-text">Have an account? <a href="login.php">Login Here</a>.</p>
 
         </form>
     </div>
