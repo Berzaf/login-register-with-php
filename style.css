@@ -23,10 +23,10 @@ body {
 }
 */
 
-#form {
+/*#form {
     position: absolute;
     margin-bottom: 200px;
-}
+}*/
 #form input {
     min-width: 600px;
     display: block;
@@ -60,17 +60,7 @@ body {
     box-shadow: 5px 5px 15px #aaa;
 }
 
-#form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-    width: 50vw;
-    position: absolute;
-    bottom: 0px;
-    font-size: 35px;
-}
+
 
 
 
