@@ -46,7 +46,7 @@ if(isset($_POST['register-btn'])) {
             <input type="password" name="password" class="input-box" placeholder="Password">
             <input type="submit" name="register-btn" class="btn" value="Register">
 
-            <p class="login-register-text" style="text-align: center; color:white">Have an account? <a href="login.php">Login Here</a>.</p>
+            <p class="login-register-text" style="text-align: center; color:white">Have an account? <a href="index.html">Login Here</a>.</p>
 
         </form>
     </div>

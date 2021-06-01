@@ -11,7 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
 </head>
-<body>
+<body style="background: url(bk.jpg)">
 
     <?php if(!isset($_SESSION['username'])): header("location: logout.php");?>
 
@@ -19,9 +19,9 @@ session_start();
 
     <?php endif ?>
 
-    <?php echo "<h1> Welcome ".$_SESSION['username']."</h1>" ?>
+    <h2 style="text-align: right; color: white; margin-right: 40px; font-size: 50px;"><a href="logout.php">Logout</a></h2>
+    <?php echo "<h1 style='text-align: center; color: white; margin-top: 200px; font-size: 50px;'> Welcome ".$_SESSION['username']."</h1>" ?>
 
-    <h2><a href="logout.php">Logout</a></h2>
 
 </body>
 </html>
