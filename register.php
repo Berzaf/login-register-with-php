@@ -33,20 +33,20 @@ if(isset($_POST['register-btn'])) {
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login System</title>
+    <title>Login and Register System</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style = "background: url(bk.jpg)">
     
     <div id="form" >
-        <h1>Register</h1>
+        <h1 style="text-align: center; color:white">Register</h1>
         <form action="register.php" method="post">
             <input type="text" name="username" class="input-box" placeholder="User Name">
             <input type="email" name="email" class="input-box" placeholder="Email">
             <input type="password" name="password" class="input-box" placeholder="Password">
             <input type="submit" name="register-btn" class="btn" value="Register">
 
-            <p class="login-register-text">Have an account? <a href="login.php">Login Here</a>.</p>
+            <p class="login-register-text" style="text-align: center; color:white">Have an account? <a href="login.php">Login Here</a>.</p>
 
         </form>
     </div>
