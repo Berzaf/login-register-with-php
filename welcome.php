@@ -11,7 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
 </head>
-<body style="background: url(bk.jpg)">
+<body style="background: url(bk2.jpg)">
 
     <?php if(!isset($_SESSION['username'])): header("location: logout.php");?>
 

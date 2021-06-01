@@ -23,12 +23,8 @@ body {
 }
 */
 
-/*#form {
-    position: absolute;
-    margin-bottom: 200px;
-}*/
 #form input {
-    min-width: 600px;
+    min-width: 500px;
     display: block;
     margin: 20px;
     padding: 15px 20px;
